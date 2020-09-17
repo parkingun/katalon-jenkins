@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1. 목표관리 생성 step1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f74c081d-003f-4884-bc1e-89cd2030def6</testCaseGuid>
+   <variable>
+      <defaultValue>'스테이징\r\n'</defaultValue>
+      <description></description>
+      <id>4a86a853-3cd3-4885-8795-6f039249d042</id>
+      <masked>false</masked>
+      <name>env_test</name>
+   </variable>
+</TestCaseEntity>
