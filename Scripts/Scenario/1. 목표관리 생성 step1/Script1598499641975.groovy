@@ -19,6 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 GlobalVariable.env_test = '스테이징'
 
+//katalonc -noSplash -runMode=console -projectPath="D:\katalon\scenario_test\scenario_test.prj" -retry=0 -testSuitePath="Test Suites/scenario_auto" -executionProfile="default" -browserType="Chrome" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY
+
+
 // env 변경 시 > step 4, 
 /*String env = '스테이징'*/
 
