@@ -32,30 +32,24 @@ if (env == '스테이징') {
 
     // 로그인 과정
     WebUI.openBrowser('')
-
     WebUI.maximizeWindow(FailureHandling.CONTINUE_ON_FAILURE)
 
     // 스테이징 url
     WebUI.navigateToUrl(('https://testsvc-' + sp_id) + '-erpsolution-co-kr.midasweb.net/')
-
     WebUI.delay(1)
 
     // 스테이징 관리자
     WebUI.setText(CustomKeywords.'common.dynamicTestobject.getSelectorTypeObject'('name', 'username'), sp_id)
-
     WebUI.delay(1)
 
     WebUI.setText(CustomKeywords.'common.dynamicTestobject.getSelectorTypeObject'('name', 'password'), passwd, FailureHandling.STOP_ON_FAILURE)
-
     WebUI.delay(1)
 
     WebUI.click(CustomKeywords.'common.dynamicTestobject.getXpathObject'('//*[@id="frm"]/div[3]/button'), FailureHandling.STOP_ON_FAILURE)
-
     WebUI.delay(1)
 
     // 목표 관리 생성 페이지 이동
     WebUI.navigateToUrl(('https://testsvc-' + sp_id) + '-erpsolution-co-kr.midasweb.net/performance/goal/setting/create')
-
     WebUI.delay(3) // 로그인 과정
    
 } else if (env == '운영') {
